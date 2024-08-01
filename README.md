@@ -1,4 +1,4 @@
-# Store-TopList
+# [Store module] TopList
 TopList module for Store. It displays top players by credits.
 
 # Config
