@@ -119,7 +119,7 @@ namespace Store_TopList
 
             if (topPlayers.Count > 0)
             {
-                player.PrintToChat(Localizer["topcredits.title"]);
+                player.PrintToChat(Localizer["topcredits.title", Config.TopPlayersLimit]);
                 int rank = 1;
 
                 foreach (var (playerName, credits) in topPlayers)
@@ -142,7 +142,7 @@ namespace Store_TopList
                 return;
             }
 
-            string title = Localizer["topcredits.title"];
+            string title = Localizer["topcredits.title", Config.TopPlayersLimit];
             List<MenuItem> items = new List<MenuItem>();
             var topDictionary = new Dictionary<int, (string playerName, int credits)>();
 
