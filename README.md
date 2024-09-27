@@ -6,6 +6,8 @@ Config will be auto generated. Default:
 ```json
 {
   "top_players_limit": 10,
+  "TopMenuType": 0, //0 - Chat menu, 1 - Kitsune menu
+  "KitsuneMenuDeveloperDisplay": true, //If its true, then showing who is developing the Kitsune menu. Its only needed if TopMenuType is 1
   "commands": [
     "toplist"
   ]
