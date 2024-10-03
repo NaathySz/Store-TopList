@@ -1,5 +1,4 @@
 {
-    "topcredits.title": "{gold} --- En zengin 10 oyuncu ---",
-    "topcredits.players": "{yellow}İLK {0}: {blue}{1} {green}{2} kredi",
-    "topcredits.bottom": "{gold} ------------------------------------"
+    "topcredits.title": "{gold} --- En zengin {0} oyuncu ---",
+    "topcredits.players": "{yellow}İLK {0}: {blue}{1} {green}{2} kredi"
 }

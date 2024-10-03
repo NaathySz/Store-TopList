@@ -7,14 +7,17 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CounterStrikeSharp.API" Version="1.0.235" />
+		<PackageReference Include="CounterStrikeSharp.API" Version="1.0.266" />
 	</ItemGroup>
 
 	<ItemGroup>
-        <Reference Include="StoreApi">
-            <HintPath>StoreApi.dll</HintPath>
-        </Reference>
-    </ItemGroup>
+    <Reference Include="StoreApi">
+      <HintPath>StoreApi.dll</HintPath>
+    </Reference>
+    <Reference Include="KitsuneMenu">
+      <HintPath>KitsuneMenu.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 	  <ItemGroup>
     <PackageReference Include="MySqlConnector" Version="2.3.0" />
